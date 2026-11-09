@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{CCBFD4AF-DD3A-4ECE-B188-0468FE6FDCB0}" SchemaVersion="133">
+	<Effects>
+		<WorkUnit Name="Default Work Unit" ID="{CCBFD4AF-DD3A-4ECE-B188-0468FE6FDCB0}" PersistMode="Standalone">
+			<ChildrenList>
+				<Effect Name="cefe_music_RoomVerb" ID="{1300D2F1-68E5-4074-A366-6BB4D2C72411}" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
+					<PropertyList>
+						<Property Name="DecayTime" Type="Real32" Value="0.8"/>
+						<Property Name="Density" Type="Real32" Value="54"/>
+						<Property Name="DryLevel" Type="Real32" Value="-0.3"/>
+						<Property Name="ERLevel" Type="Real32" Value="0"/>
+						<Property Name="ERPattern" Type="int32" Value="22"/>
+						<Property Name="EnableToneControls" Type="bool" Value="True"/>
+						<Property Name="Filter1Freq" Type="Real32" Value="300"/>
+						<Property Name="ReverbLevel" Type="Real32" Value="-8"/>
+						<Property Name="RoomShape" Type="Real32" Value="50"/>
+					</PropertyList>
+				</Effect>
+			</ChildrenList>
+		</WorkUnit>
+	</Effects>
+</WwiseDocument>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{2356832B-5A77-4583-9DF6-BB9946F152C7}" SchemaVersion="133">
+	<SoundcasterSessions>
+		<WorkUnit Name="Default Work Unit" ID="{2356832B-5A77-4583-9DF6-BB9946F152C7}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundcasterSession Name="Cafe_Test" ID="{78175B96-8396-4F5C-95D5-22B8A96B11AA}">
+					<ModuleList>
+						<Module>
+							<ObjectRef Name="Random Container_bike_bell" ID="{298E57E6-B722-4566-8E41-A2C73235CD6A}" WorkUnitID="{0AE61D5C-C3AD-47CD-99DC-9023DC67F02C}"/>
+							<Position X="0" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Random Container_pouring_coffee" ID="{99966D66-CD7C-4852-A86B-E2270C31823D}" WorkUnitID="{0AE61D5C-C3AD-47CD-99DC-9023DC67F02C}"/>
+							<Position X="0" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Random Container_chair_move" ID="{A15B092B-ADA1-4D34-B0D1-3A645E504877}" WorkUnitID="{0AE61D5C-C3AD-47CD-99DC-9023DC67F02C}"/>
+							<Position X="1" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Random Container_wind_bell" ID="{FF83160B-BFF7-4414-93DE-8B9FE4D5567B}" WorkUnitID="{0AE61D5C-C3AD-47CD-99DC-9023DC67F02C}"/>
+							<Position X="1" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Random Container_cup_placed_on_table" ID="{D1121229-81FD-4E6E-83B4-2B1EFE4A3923}" WorkUnitID="{0AE61D5C-C3AD-47CD-99DC-9023DC67F02C}"/>
+							<Position X="2" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="base_cafe_music" ID="{CCCDC1CA-9217-4073-893B-D1728B6C3E39}" WorkUnitID="{0AE61D5C-C3AD-47CD-99DC-9023DC67F02C}"/>
+							<Position X="2" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Random Container_footsteps" ID="{325BB83E-1009-40AC-8A2A-4F28271391DE}" WorkUnitID="{0AE61D5C-C3AD-47CD-99DC-9023DC67F02C}"/>
+							<Position X="3" Y="0"/>
+						</Module>
+					</ModuleList>
+				</SoundcasterSession>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundcasterSessions>
+</WwiseDocument>

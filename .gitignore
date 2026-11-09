@@ -1,20 +1,66 @@
-# 本地工具与工作区数据
+# ============================================================
+# Wwise 工程版本控制规则
+# 依据 Audiokinetic 官方文档 "Using Wwise with your source control system"
+# 以及 Wwise 新建工程时自动生成的 .gitignore 模板
+#
+# 应纳入版本控制：*.wproj、*.wwu、Originals/ 原始音频
+# 不应纳入：Wwise 自动生成的缓存、SoundBank、本地用户设置
+# ============================================================
+
+# --- Wwise 缓存与本地工作数据 ---
+.cache/
+.cache*/
+.backup/
+.backup*/
+*.akd
+*.validationcache
+*.wsettings
+*.prof
+IncrementalSoundBankData.xml
+SoundBankInfoCache.dat
+AkWwiseProjectData.asset
+
+# --- 生成的 SoundBank（可由工程重新生成，不需要入库）---
+# 如需把 SoundBank 交付给不安装 Wwise 的成员，可注释掉以下三行
+GeneratedSoundBanks/
+*.bnk
+*.wem
+
+# --- 日志与 Profiler 捕获 ---
+*.log
+*.log.*
+Logs/
+log/
+
+# --- 系统隐藏文件 ---
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+.DS_Store
+._*
+$RECYCLE.BIN/
+
+# --- 临时 / 备份 / 编辑器交换文件 ---
+*.tmp
+*.temp
+*.bak
+*.swp
+*~
+~$*
+*.part
+*.crdownload
+
+# --- 本地工具与工作区数据 ---
 .workbuddy/
 .idea/
 .vscode/
 
-# 操作系统生成文件
-Thumbs.db
-Desktop.ini
-.DS_Store
-
-# 依赖与构建产物
+# --- 常见依赖与构建产物 ---
 node_modules/
 dist/
 build/
-*.log
 
-# 敏感信息
+# --- 敏感信息 ---
 .env
 .env.*
 !.env.example

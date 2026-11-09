@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{32B38A4B-9B5A-4829-ABAE-4779497AC2D1}" SchemaVersion="133">
+	<Events>
+		<WorkUnit Name="Default Work Unit" ID="{32B38A4B-9B5A-4829-ABAE-4779497AC2D1}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="Play_random_wind_chime" ID="{B8EEA438-CD7F-4301-8690-4B2D574D15A5}">
+					<ChildrenList>
+						<Action Name="" ID="{04F0B360-CD9D-4AF9-81A6-96EEACCCBF8D}" ShortID="808789075">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Random Container_wind_bell" ID="{FF83160B-BFF7-4414-93DE-8B9FE4D5567B}" WorkUnitID="{0AE61D5C-C3AD-47CD-99DC-9023DC67F02C}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_random_footsteps" ID="{00E0C512-C4FD-4B1C-A5C4-389B30306E0B}">
+					<ChildrenList>
+						<Action Name="" ID="{FDB94DCC-9D48-4D21-AC8D-D92018185F68}" ShortID="136109464">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Random Container_footsteps" ID="{325BB83E-1009-40AC-8A2A-4F28271391DE}" WorkUnitID="{0AE61D5C-C3AD-47CD-99DC-9023DC67F02C}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_random_cup_placed_on_table" ID="{863884C1-5CFE-4A2B-B504-08F3191DC6CE}">
+					<ChildrenList>
+						<Action Name="" ID="{B99C1BDB-3934-429B-BE00-0ED805D3D06C}" ShortID="314995802">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Random Container_cup_placed_on_table" ID="{D1121229-81FD-4E6E-83B4-2B1EFE4A3923}" WorkUnitID="{0AE61D5C-C3AD-47CD-99DC-9023DC67F02C}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_base_cafe_music" ID="{0AA7CBAD-72F9-490C-83DC-3980B325D6A3}">
+					<ChildrenList>
+						<Action Name="" ID="{AD5DDC2F-2FE9-428E-8A3B-A9FE23915853}" ShortID="200622539">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="base_cafe_music" ID="{CCCDC1CA-9217-4073-893B-D1728B6C3E39}" WorkUnitID="{0AE61D5C-C3AD-47CD-99DC-9023DC67F02C}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

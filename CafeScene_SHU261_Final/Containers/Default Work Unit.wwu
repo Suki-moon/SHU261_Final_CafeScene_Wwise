@@ -1,0 +1,1112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{0AE61D5C-C3AD-47CD-99DC-9023DC67F02C}" SchemaVersion="133">
+	<Containers>
+		<WorkUnit Name="Default Work Unit" ID="{0AE61D5C-C3AD-47CD-99DC-9023DC67F02C}" PersistMode="Standalone">
+			<ChildrenList>
+				<Sound Name="base_cafe_music" ID="{CCCDC1CA-9217-4073-893B-D1728B6C3E39}" ShortID="770539478">
+					<PropertyList>
+						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+						<Property Name="IsStreamingEnabled" Type="bool">
+							<ValueList>
+								<Value>True</Value>
+							</ValueList>
+						</Property>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-14</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{387A833B-9FB5-41CD-8713-57CD6A7A582B}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F1DDB605-6425-414C-8726-D1C4B7793439}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="base_cafe_music" ID="{611787C1-07BC-44EE-AD34-602E02C4E686}">
+							<Language>SFX</Language>
+							<AudioFile>base_cafe_music.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="314326814"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="base_cafe_music" ID="{611787C1-07BC-44EE-AD34-602E02C4E686}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<RandomSequenceContainer Name="Random Container_cup_placed_on_table" ID="{D1121229-81FD-4E6E-83B4-2B1EFE4A3923}" ShortID="487517111">
+					<PropertyList>
+						<Property Name="3DPosition" Type="int16" Value="1"/>
+						<Property Name="3DSpatialization" Type="int16" Value="2"/>
+						<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>7</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Attenuation">
+							<ObjectRef Name="cup_placed_on_table" ID="{D036629B-C1EE-4A4E-9924-ABACA4A85F78}" WorkUnitID="{B6D9348F-12B5-4543-A876-26E3E788A8B7}"/>
+						</Reference>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{387A833B-9FB5-41CD-8713-57CD6A7A582B}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F1DDB605-6425-414C-8726-D1C4B7793439}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="random_cup_placed_on_table_01" ID="{FB39DB22-241E-4B6C-A7FF-439404E65C2E}" ShortID="66207863">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{387A833B-9FB5-41CD-8713-57CD6A7A582B}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F1DDB605-6425-414C-8726-D1C4B7793439}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="random_cup_placed_on_table_01" ID="{0B1B5126-FADC-461A-8705-2F066143351C}">
+									<Language>SFX</Language>
+									<AudioFile>random_cup_placed_on_table_01.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="514340635"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="random_cup_placed_on_table_01" ID="{0B1B5126-FADC-461A-8705-2F066143351C}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="random_cup_placed_on_table_02" ID="{97F616F6-D160-43A7-976E-1996E886A9E3}" ShortID="127247045">
+							<PropertyList>
+								<Property Name="Weight" Type="Real64">
+									<ValueList>
+										<Value>56</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{387A833B-9FB5-41CD-8713-57CD6A7A582B}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F1DDB605-6425-414C-8726-D1C4B7793439}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="random_cup_placed_on_table_02" ID="{07CC5679-7ECC-4530-BE14-6EBCC19C5EF7}">
+									<Language>SFX</Language>
+									<AudioFile>random_cup_placed_on_table_02.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="250870645"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="random_cup_placed_on_table_02" ID="{07CC5679-7ECC-4530-BE14-6EBCC19C5EF7}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="random_cup_placed_on_table_03" ID="{900B3351-1EE4-4953-82B6-4A6F6C268461}" ShortID="321136698">
+							<PropertyList>
+								<Property Name="Weight" Type="Real64">
+									<ValueList>
+										<Value>62</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{387A833B-9FB5-41CD-8713-57CD6A7A582B}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F1DDB605-6425-414C-8726-D1C4B7793439}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="random_cup_placed_on_table_03" ID="{D17C950F-A7EB-4A55-B10F-D42160F3CAA0}">
+									<Language>SFX</Language>
+									<AudioFile>random_cup_placed_on_table_03.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="299953710"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="random_cup_placed_on_table_03" ID="{D17C950F-A7EB-4A55-B10F-D42160F3CAA0}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="random_cup_placed_on_table_04" ID="{941D5C1A-81AB-49DE-8D13-4B9FEA18E462}" ShortID="677753905">
+							<PropertyList>
+								<Property Name="Weight" Type="Real64">
+									<ValueList>
+										<Value>65</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{387A833B-9FB5-41CD-8713-57CD6A7A582B}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F1DDB605-6425-414C-8726-D1C4B7793439}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="random_cup_placed_on_table_04" ID="{861A8334-A521-4592-97DB-575337213193}">
+									<Language>SFX</Language>
+									<AudioFile>random_cup_placed_on_table_04.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="358104343"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="random_cup_placed_on_table_04" ID="{861A8334-A521-4592-97DB-575337213193}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="random_cup_placed_on_table_05" ID="{88A805C6-72A1-456C-B83A-5ECF249F8E19}" ShortID="969088893">
+							<PropertyList>
+								<Property Name="Weight" Type="Real64">
+									<ValueList>
+										<Value>59</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{387A833B-9FB5-41CD-8713-57CD6A7A582B}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F1DDB605-6425-414C-8726-D1C4B7793439}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="random_cup_placed_on_table_05" ID="{F554A133-70B6-449B-9A8C-B209CD9E4B8A}">
+									<Language>SFX</Language>
+									<AudioFile>random_cup_placed_on_table_05.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="190476691"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="random_cup_placed_on_table_05" ID="{F554A133-70B6-449B-9A8C-B209CD9E4B8A}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="random_cup_placed_on_table_06" ID="{2C82387F-F6C7-4B6F-B48A-63B7BEC69296}" ShortID="578834132">
+							<PropertyList>
+								<Property Name="Weight" Type="Real64">
+									<ValueList>
+										<Value>62</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{387A833B-9FB5-41CD-8713-57CD6A7A582B}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F1DDB605-6425-414C-8726-D1C4B7793439}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="random_cup_placed_on_table_06" ID="{1A39CEAA-B143-4EB3-8C55-7F6A39CA861A}">
+									<Language>SFX</Language>
+									<AudioFile>random_cup_placed_on_table_06.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="706162374"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="random_cup_placed_on_table_06" ID="{1A39CEAA-B143-4EB3-8C55-7F6A39CA861A}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+					<PositioningInfo>
+						<Position Name="" ID="{0CBF85A8-5C82-464C-86C0-3442C63FC6CE}">
+							<ChildrenList>
+								<Path2D Name="Random Container_cup_placed_on_table_Path" ID="{FB074663-BE2A-4EF8-AF3A-914335EBEF0F}">
+									<PointList>
+										<Point>
+											<XPos>-11.92982</XPos>
+											<YPos>26.18214</YPos>
+											<Flags>12</Flags>
+											<Time>0</Time>
+										</Point>
+									</PointList>
+								</Path2D>
+								<Path2D Name="Random Container_cup_placed_on_table_Path_01" ID="{96FC0E5A-659E-424E-9193-E3DC6360D459}">
+									<PointList>
+										<Point>
+											<XPos>22.10527</XPos>
+											<YPos>23.02978</YPos>
+											<Flags>12</Flags>
+											<Time>0</Time>
+										</Point>
+									</PointList>
+								</Path2D>
+								<Path2D Name="Random Container_cup_placed_on_table_Path_02" ID="{FDD45708-F0C9-4906-8AAA-326938FEC8FF}">
+									<PointList>
+										<Point>
+											<XPos>48.77193</XPos>
+											<YPos>-16.54991</YPos>
+											<Flags>12</Flags>
+											<Time>0</Time>
+										</Point>
+									</PointList>
+								</Path2D>
+								<Path2D Name="Random Container_cup_placed_on_table_Path_03" ID="{C522A6A8-E332-4B8F-8D72-483E47B47612}">
+									<PointList>
+										<Point>
+											<XPos>5.26316</XPos>
+											<YPos>55.25394</YPos>
+											<Flags>12</Flags>
+											<Time>0</Time>
+										</Point>
+									</PointList>
+								</Path2D>
+								<Path2D Name="Random Container_cup_placed_on_table_Path_04" ID="{FCCC5020-0AD8-4E5D-8EA7-C82262C7C7A3}">
+									<PointList>
+										<Point>
+											<XPos>-23.50877</XPos>
+											<YPos>-22.85464</YPos>
+											<Flags>12</Flags>
+											<Time>0</Time>
+										</Point>
+									</PointList>
+								</Path2D>
+							</ChildrenList>
+						</Position>
+					</PositioningInfo>
+				</RandomSequenceContainer>
+				<RandomSequenceContainer Name="Random Container_footsteps" ID="{325BB83E-1009-40AC-8A2A-4F28271391DE}" ShortID="386858351">
+					<PropertyList>
+						<Property Name="3DPosition" Type="int16" Value="1"/>
+						<Property Name="3DSpatialization" Type="int16" Value="2"/>
+						<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>12</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Attenuation">
+							<ObjectRef Name="footsteos_dead_leaves_20m" ID="{F2647496-D820-487F-A42D-ED258112E4B6}" WorkUnitID="{B6D9348F-12B5-4543-A876-26E3E788A8B7}"/>
+						</Reference>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{387A833B-9FB5-41CD-8713-57CD6A7A582B}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F1DDB605-6425-414C-8726-D1C4B7793439}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="random_footsteps_04" ID="{C87BEEEB-CD57-4FEC-993B-9B79626AC12A}" ShortID="893517708">
+							<PropertyList>
+								<Property Name="Weight" Type="Real64">
+									<ValueList>
+										<Value>100</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{387A833B-9FB5-41CD-8713-57CD6A7A582B}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F1DDB605-6425-414C-8726-D1C4B7793439}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="random_footsteps_04" ID="{50033262-89DA-41A9-8D3F-4AD80172A85B}">
+									<Language>SFX</Language>
+									<AudioFile>random_footsteps_04.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="923800503"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="random_footsteps_04" ID="{50033262-89DA-41A9-8D3F-4AD80172A85B}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="random_footsteps_03" ID="{BE2D2488-EF35-492A-BA2B-6EEDC4DC3F57}" ShortID="38578294">
+							<PropertyList>
+								<Property Name="Weight" Type="Real64">
+									<ValueList>
+										<Value>100</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{387A833B-9FB5-41CD-8713-57CD6A7A582B}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F1DDB605-6425-414C-8726-D1C4B7793439}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="random_footsteps_03" ID="{BFEA38EE-D3E9-4C43-918A-8CFC83CB14EF}">
+									<Language>SFX</Language>
+									<AudioFile>random_footsteps_03.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="64233724"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="random_footsteps_03" ID="{BFEA38EE-D3E9-4C43-918A-8CFC83CB14EF}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="random_footsteps_02" ID="{DA17BEFC-D8A3-4EFB-9FA4-CAEA8C6BACC9}" ShortID="495571548">
+							<PropertyList>
+								<Property Name="Weight" Type="Real64">
+									<ValueList>
+										<Value>100</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{387A833B-9FB5-41CD-8713-57CD6A7A582B}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F1DDB605-6425-414C-8726-D1C4B7793439}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="random_footsteps_02" ID="{AA0BDF5C-CE1D-49B7-9517-6653ED486110}">
+									<Language>SFX</Language>
+									<AudioFile>random_footsteps_02.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="194091895"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="random_footsteps_02" ID="{AA0BDF5C-CE1D-49B7-9517-6653ED486110}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="random_footsteps_01" ID="{F58F22E7-88C3-47B9-9403-F752F7819149}" ShortID="33516380">
+							<PropertyList>
+								<Property Name="Weight" Type="Real64">
+									<ValueList>
+										<Value>100</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{387A833B-9FB5-41CD-8713-57CD6A7A582B}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F1DDB605-6425-414C-8726-D1C4B7793439}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="random_footsteps_01" ID="{BEA03572-96C1-4F41-8AF8-8710E1DEA6AF}">
+									<Language>SFX</Language>
+									<AudioFile>random_footsteps_01.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="1065996801"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="random_footsteps_01" ID="{BEA03572-96C1-4F41-8AF8-8710E1DEA6AF}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+					<PositioningInfo>
+						<Position Name="" ID="{28E17FE7-959A-41BD-8441-7699F7DB6B6B}">
+							<PropertyList>
+								<Property Name="PlayMechanismRandomOrSequence" Type="int16" Value="1"/>
+								<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+							</PropertyList>
+							<ChildrenList>
+								<Path2D Name="Random Container_footsteps_Path" ID="{3EABB3F4-B95C-4BBA-A17E-3CDCE609887F}">
+									<PointList>
+										<Point>
+											<XPos>36.14035</XPos>
+											<YPos>52.10158</YPos>
+											<Flags>12</Flags>
+											<Time>0</Time>
+										</Point>
+										<Point>
+											<XPos>36.140350877193</XPos>
+											<YPos>37.6532399299475</YPos>
+											<Flags>0</Flags>
+											<Time>2500</Time>
+										</Point>
+										<Point>
+											<XPos>31.578947368421</XPos>
+											<YPos>25.0437828371278</YPos>
+											<Flags>0</Flags>
+											<Time>5000</Time>
+										</Point>
+									</PointList>
+								</Path2D>
+								<Path2D Name="Random Container_footsteps_Path_01" ID="{C4E96A8F-C7B8-4A97-9619-8273B0AC76E8}">
+									<PointList>
+										<Point>
+											<XPos>0</XPos>
+											<YPos>50</YPos>
+											<Flags>12</Flags>
+											<Time>0</Time>
+										</Point>
+										<Point>
+											<XPos>-12.6315789473684</XPos>
+											<YPos>41.1558669001751</YPos>
+											<Flags>0</Flags>
+											<Time>2500</Time>
+										</Point>
+										<Point>
+											<XPos>-24.5614035087719</XPos>
+											<YPos>33.800350262697</YPos>
+											<Flags>0</Flags>
+											<Time>5000</Time>
+										</Point>
+									</PointList>
+								</Path2D>
+								<Path2D Name="Random Container_footsteps_Path_02" ID="{438D3910-A675-4F40-97C5-2278D74E93C0}">
+									<PointList>
+										<Point>
+											<XPos>37.89474</XPos>
+											<YPos>-49.12434</YPos>
+											<Flags>12</Flags>
+											<Time>0</Time>
+										</Point>
+										<Point>
+											<XPos>37.8947368421053</XPos>
+											<YPos>-30.6479859894921</YPos>
+											<Flags>0</Flags>
+											<Time>2500</Time>
+										</Point>
+										<Point>
+											<XPos>39.2982456140351</XPos>
+											<YPos>-14.5359019264448</YPos>
+											<Flags>0</Flags>
+											<Time>5000</Time>
+										</Point>
+									</PointList>
+								</Path2D>
+								<Path2D Name="Random Container_footsteps_Path_03" ID="{47DAE36A-68EA-411E-9903-769BF493F442}">
+									<PointList>
+										<Point>
+											<XPos>-3.50877</XPos>
+											<YPos>-60.33275</YPos>
+											<Flags>12</Flags>
+											<Time>0</Time>
+										</Point>
+										<Point>
+											<XPos>1.05263157894737</XPos>
+											<YPos>-42.907180385289</YPos>
+											<Flags>0</Flags>
+											<Time>2500</Time>
+										</Point>
+										<Point>
+											<XPos>-0.701754385964918</XPos>
+											<YPos>-28.5464098073555</YPos>
+											<Flags>0</Flags>
+											<Time>5000</Time>
+										</Point>
+									</PointList>
+								</Path2D>
+								<Path2D Name="Random Container_footsteps_Path_04" ID="{CFFC83D5-5C04-4D3B-98B3-A7CB8ADF0546}">
+									<PointList>
+										<Point>
+											<XPos>-26.31579</XPos>
+											<YPos>51.75131</YPos>
+											<Flags>12</Flags>
+											<Time>0</Time>
+										</Point>
+										<Point>
+											<XPos>-1.75439</XPos>
+											<YPos>56.56743</YPos>
+											<Flags>0</Flags>
+											<Time>2500</Time>
+										</Point>
+										<Point>
+											<XPos>16.4912280701754</XPos>
+											<YPos>45.0087565674256</YPos>
+											<Flags>0</Flags>
+											<Time>5000</Time>
+										</Point>
+									</PointList>
+								</Path2D>
+								<Path2D Name="Random Container_footsteps_Path_05" ID="{8C728C6E-779F-423D-84B1-B00390384B8E}">
+									<PointList>
+										<Point>
+											<XPos>20.35088</XPos>
+											<YPos>41.5937</YPos>
+											<Flags>12</Flags>
+											<Time>0</Time>
+										</Point>
+										<Point>
+											<XPos>-3.85964912280701</XPos>
+											<YPos>41.5061295971979</YPos>
+											<Flags>0</Flags>
+											<Time>2500</Time>
+										</Point>
+										<Point>
+											<XPos>-15.0877192982456</XPos>
+											<YPos>56.9176882661996</YPos>
+											<Flags>0</Flags>
+											<Time>5000</Time>
+										</Point>
+									</PointList>
+								</Path2D>
+								<Path2D Name="Random Container_footsteps_Path_06" ID="{DEC5F07A-D7E3-455C-8C7B-0BD65A1DA228}">
+									<PointList>
+										<Point>
+											<XPos>41.05263</XPos>
+											<YPos>0.96322</YPos>
+											<Flags>12</Flags>
+											<Time>0</Time>
+										</Point>
+										<Point>
+											<XPos>40</XPos>
+											<YPos>-16.9877408056042</YPos>
+											<Flags>0</Flags>
+											<Time>2500</Time>
+										</Point>
+										<Point>
+											<XPos>47.7193</XPos>
+											<YPos>-36.25219</YPos>
+											<Flags>0</Flags>
+											<Time>5000</Time>
+										</Point>
+									</PointList>
+								</Path2D>
+							</ChildrenList>
+						</Position>
+					</PositioningInfo>
+				</RandomSequenceContainer>
+				<RandomSequenceContainer Name="Random Container_wind_bell" ID="{FF83160B-BFF7-4414-93DE-8B9FE4D5567B}" ShortID="117023349">
+					<PropertyList>
+						<Property Name="3DPosition" Type="int16" Value="1"/>
+						<Property Name="3DSpatialization" Type="int16" Value="2"/>
+						<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Attenuation">
+							<ObjectRef Name="wind_chime_10m" ID="{8A5C0C6D-DAC3-40ED-99B7-B49AC2686935}" WorkUnitID="{B6D9348F-12B5-4543-A876-26E3E788A8B7}"/>
+						</Reference>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{387A833B-9FB5-41CD-8713-57CD6A7A582B}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F1DDB605-6425-414C-8726-D1C4B7793439}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="random_wind_chinme_01" ID="{86E1B613-383B-4F29-8482-CC68275973AB}" ShortID="717511728">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{387A833B-9FB5-41CD-8713-57CD6A7A582B}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F1DDB605-6425-414C-8726-D1C4B7793439}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="random_wind_chinme_01" ID="{FEF420B6-F10F-4E95-AF86-DB01EB28424B}">
+									<Language>SFX</Language>
+									<AudioFile>random_wind_chinme_01.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="770168878"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="random_wind_chinme_01" ID="{FEF420B6-F10F-4E95-AF86-DB01EB28424B}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="random_wind_chinme_02" ID="{6A29D712-EBEC-4FA4-A6E6-238D49A3C88F}" ShortID="838478600">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{387A833B-9FB5-41CD-8713-57CD6A7A582B}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F1DDB605-6425-414C-8726-D1C4B7793439}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="random_wind_chinme_02" ID="{84C7E946-BCB0-4049-838F-90839CB22BB4}">
+									<Language>SFX</Language>
+									<AudioFile>random_wind_chinme_02.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="57584426"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="random_wind_chinme_02" ID="{84C7E946-BCB0-4049-838F-90839CB22BB4}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="random_wind_chinme_03" ID="{22C506BD-ECAA-4DB4-AFA9-E5322F547E92}" ShortID="114567629">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{387A833B-9FB5-41CD-8713-57CD6A7A582B}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F1DDB605-6425-414C-8726-D1C4B7793439}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="random_wind_chinme_03" ID="{50BFBE31-2854-435D-8DD8-7C552322C38D}">
+									<Language>SFX</Language>
+									<AudioFile>random_wind_chinme_03.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="307528183"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="random_wind_chinme_03" ID="{50BFBE31-2854-435D-8DD8-7C552322C38D}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="random_wind_chinme_04" ID="{DF49F144-7AAE-4CBD-A62F-5EF868B404D1}" ShortID="988105103">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{387A833B-9FB5-41CD-8713-57CD6A7A582B}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F1DDB605-6425-414C-8726-D1C4B7793439}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="random_wind_chinme_04" ID="{13F7D7F6-F087-4E53-BD20-7C8528C4A4BD}">
+									<Language>SFX</Language>
+									<AudioFile>random_wind_chinme_04.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="439476337"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="random_wind_chinme_04" ID="{13F7D7F6-F087-4E53-BD20-7C8528C4A4BD}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="random_wind_chinme_05" ID="{AE7D084F-A6EE-4C97-9202-6385E21B6A15}" ShortID="168233704">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{387A833B-9FB5-41CD-8713-57CD6A7A582B}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F1DDB605-6425-414C-8726-D1C4B7793439}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="random_wind_chinme_05" ID="{2D650EC4-FA5C-4654-A97A-C892A1690414}">
+									<Language>SFX</Language>
+									<AudioFile>random_wind_chinme_05.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="565583424"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="random_wind_chinme_05" ID="{2D650EC4-FA5C-4654-A97A-C892A1690414}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="random_wind_chinme_06" ID="{BE17E2DD-C904-43D6-8759-AD2BCCF7EFB4}" ShortID="507370645">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{387A833B-9FB5-41CD-8713-57CD6A7A582B}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F1DDB605-6425-414C-8726-D1C4B7793439}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="random_wind_chinme_06" ID="{9C0DA553-4915-491C-A3EE-E6D134959973}">
+									<Language>SFX</Language>
+									<AudioFile>random_wind_chinme_06.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="41900383"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="random_wind_chinme_06" ID="{9C0DA553-4915-491C-A3EE-E6D134959973}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+					<PositioningInfo>
+						<Position Name="" ID="{5B017B94-66C3-421A-B7E9-A250AE8766FA}">
+							<ChildrenList>
+								<Path2D Name="Random Container_wind_bell_Path" ID="{EB754572-9FA2-4A04-A318-2D4A800745B3}">
+									<PointList>
+										<Point>
+											<XPos>-0</XPos>
+											<YPos>24.43082</YPos>
+											<ZPos>3</ZPos>
+											<Flags>12</Flags>
+											<Time>0</Time>
+										</Point>
+									</PointList>
+								</Path2D>
+							</ChildrenList>
+						</Position>
+					</PositioningInfo>
+				</RandomSequenceContainer>
+				<RandomSequenceContainer Name="Random Container_bike_bell" ID="{298E57E6-B722-4566-8E41-A2C73235CD6A}" ShortID="352499200">
+					<PropertyList>
+						<Property Name="3DPosition" Type="int16" Value="1"/>
+						<Property Name="3DSpatialization" Type="int16" Value="2"/>
+						<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-5</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Attenuation">
+							<ObjectRef Name="bike_bell_30m" ID="{4266A2AF-E286-42FD-82D8-46E6E72EBC74}" WorkUnitID="{B6D9348F-12B5-4543-A876-26E3E788A8B7}"/>
+						</Reference>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{387A833B-9FB5-41CD-8713-57CD6A7A582B}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F1DDB605-6425-414C-8726-D1C4B7793439}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="random_bike_bell_04" ID="{C7ED06EA-8C21-44CD-8D8A-059E5524BA15}" ShortID="621077524">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{387A833B-9FB5-41CD-8713-57CD6A7A582B}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F1DDB605-6425-414C-8726-D1C4B7793439}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="random_bike_bell_04" ID="{70DB56F3-6401-480F-B606-17063ACC9B5A}">
+									<Language>SFX</Language>
+									<AudioFile>random_bike_bell_04.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="43867958"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="random_bike_bell_04" ID="{70DB56F3-6401-480F-B606-17063ACC9B5A}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="random_bike_bell_03" ID="{A0453ABD-567B-43EE-AAF3-D55B016FBE61}" ShortID="450788418">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{387A833B-9FB5-41CD-8713-57CD6A7A582B}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F1DDB605-6425-414C-8726-D1C4B7793439}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="random_bike_bell_03" ID="{D5954371-5AC2-4E4A-98EF-639501016873}">
+									<Language>SFX</Language>
+									<AudioFile>random_bike_bell_03.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="969060907"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="random_bike_bell_03" ID="{D5954371-5AC2-4E4A-98EF-639501016873}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="random_bike_bell_02" ID="{9BAFA317-5141-42BA-8CD8-3E2A9AEAAA6D}" ShortID="512200194">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{387A833B-9FB5-41CD-8713-57CD6A7A582B}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F1DDB605-6425-414C-8726-D1C4B7793439}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="random_bike_bell_02" ID="{36B0F12E-86BD-470E-870A-1B00D7C4E666}">
+									<Language>SFX</Language>
+									<AudioFile>random_bike_bell_02.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="204018731"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="random_bike_bell_02" ID="{36B0F12E-86BD-470E-870A-1B00D7C4E666}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="random_bike_bell_01" ID="{CE68F439-B3D0-433C-A339-AB10D06865BA}" ShortID="282076174">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{387A833B-9FB5-41CD-8713-57CD6A7A582B}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F1DDB605-6425-414C-8726-D1C4B7793439}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="random_bike_bell_01" ID="{AD30D6C1-31E7-469B-8C86-6C6E24A3A9BE}">
+									<Language>SFX</Language>
+									<AudioFile>random_bike_bell_01.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="435032941"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="random_bike_bell_01" ID="{AD30D6C1-31E7-469B-8C86-6C6E24A3A9BE}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+					<PositioningInfo>
+						<Panner Name="" ID="{A53BD354-2681-4A9A-B647-FD2FCF6F9D4F}">
+							<PropertyList>
+								<Property Name="PanX" Type="Real64" Value="27.0157068062827"/>
+								<Property Name="PanY" Type="Real64" Value="37.0949720670391"/>
+							</PropertyList>
+						</Panner>
+						<Position Name="" ID="{C2D9EABF-B849-4EFA-9C40-BA090970E325}">
+							<PropertyList>
+								<Property Name="PlayMechanismRandomOrSequence" Type="int16" Value="1"/>
+							</PropertyList>
+							<ChildrenList>
+								<Path2D Name="Random Container_bike_bell_Path" ID="{4B325AE0-5CEF-4CD5-ABCE-B94EC1683430}">
+									<PointList>
+										<Point>
+											<XPos>-38.94737</XPos>
+											<YPos>14.62345</YPos>
+											<Flags>12</Flags>
+											<Time>0</Time>
+										</Point>
+										<Point>
+											<XPos>-40</XPos>
+											<YPos>34.50087</YPos>
+											<Flags>0</Flags>
+											<Time>5000</Time>
+										</Point>
+									</PointList>
+								</Path2D>
+							</ChildrenList>
+						</Position>
+					</PositioningInfo>
+				</RandomSequenceContainer>
+				<RandomSequenceContainer Name="Random Container_pouring_coffee" ID="{99966D66-CD7C-4852-A86B-E2270C31823D}" ShortID="88950092">
+					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="2"/>
+						<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-5</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Attenuation">
+							<ObjectRef Name="pouring_coffee_10m" ID="{1CAC171A-FEE6-4D23-962D-ED8F35AA250C}" WorkUnitID="{B6D9348F-12B5-4543-A876-26E3E788A8B7}"/>
+						</Reference>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{387A833B-9FB5-41CD-8713-57CD6A7A582B}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F1DDB605-6425-414C-8726-D1C4B7793439}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="random_pouring_coffee_02" ID="{FF2245D4-CDDB-48A1-90D4-804FF141AF29}" ShortID="944150307">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{387A833B-9FB5-41CD-8713-57CD6A7A582B}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F1DDB605-6425-414C-8726-D1C4B7793439}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="random_pouring_coffee_02" ID="{D22C89A4-6A41-44D9-A6A3-633B615C96EA}">
+									<Language>SFX</Language>
+									<AudioFile>random_pouring_coffee_02.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="546284419"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="random_pouring_coffee_02" ID="{D22C89A4-6A41-44D9-A6A3-633B615C96EA}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="random_pouring_coffee_01" ID="{BBD27C3D-5043-4A48-9F04-DBB251334D6C}" ShortID="744168714">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{387A833B-9FB5-41CD-8713-57CD6A7A582B}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F1DDB605-6425-414C-8726-D1C4B7793439}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="random_pouring_coffee_01" ID="{3075B612-3CB0-4D91-B761-ACA6C5BF54D3}">
+									<Language>SFX</Language>
+									<AudioFile>random_pouring_coffee_01.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="325026971"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="random_pouring_coffee_01" ID="{3075B612-3CB0-4D91-B761-ACA6C5BF54D3}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</RandomSequenceContainer>
+				<RandomSequenceContainer Name="Random Container_chair_move" ID="{A15B092B-ADA1-4D34-B0D1-3A645E504877}" ShortID="60193064">
+					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="2"/>
+						<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>5</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Attenuation">
+							<ObjectRef Name="chair_move" ID="{6BD584CD-500B-4FB4-839A-5E134D9D967D}" WorkUnitID="{B6D9348F-12B5-4543-A876-26E3E788A8B7}"/>
+						</Reference>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{387A833B-9FB5-41CD-8713-57CD6A7A582B}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F1DDB605-6425-414C-8726-D1C4B7793439}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="random_chair_move_05" ID="{91B08359-2CA5-4804-8E3C-20A31BEC72BD}" ShortID="112346027">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{387A833B-9FB5-41CD-8713-57CD6A7A582B}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F1DDB605-6425-414C-8726-D1C4B7793439}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="random_chair_move_05" ID="{06AD5BDF-4451-4CDC-82B3-66E699D6BFE4}">
+									<Language>SFX</Language>
+									<AudioFile>random_chair_move_05.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="948818600"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="random_chair_move_05" ID="{06AD5BDF-4451-4CDC-82B3-66E699D6BFE4}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="random_chair_move_04" ID="{B71C508E-F274-4829-AAF2-BED325B294F7}" ShortID="986401834">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{387A833B-9FB5-41CD-8713-57CD6A7A582B}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F1DDB605-6425-414C-8726-D1C4B7793439}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="random_chair_move_04" ID="{597CDAC7-52ED-400A-8627-E2831F49C57D}">
+									<Language>SFX</Language>
+									<AudioFile>random_chair_move_04.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="295037636"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="random_chair_move_04" ID="{597CDAC7-52ED-400A-8627-E2831F49C57D}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="random_chair_move_03" ID="{77C10404-9C0C-4832-9041-BA3F4B9860DF}" ShortID="796144693">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{387A833B-9FB5-41CD-8713-57CD6A7A582B}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F1DDB605-6425-414C-8726-D1C4B7793439}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="random_chair_move_03" ID="{A96FA8BF-5B3F-41DE-9004-2D551CCA0870}">
+									<Language>SFX</Language>
+									<AudioFile>random_chair_move_03.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="564750222"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="random_chair_move_03" ID="{A96FA8BF-5B3F-41DE-9004-2D551CCA0870}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="random_chair_move_02" ID="{64FA768F-D97A-483D-82E8-D644AFA02D45}" ShortID="699798501">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{387A833B-9FB5-41CD-8713-57CD6A7A582B}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F1DDB605-6425-414C-8726-D1C4B7793439}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="random_chair_move_02" ID="{D93847F8-40ED-4450-A9D4-BCB90E40FC10}">
+									<Language>SFX</Language>
+									<AudioFile>random_chair_move_02.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="990104573"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="random_chair_move_02" ID="{D93847F8-40ED-4450-A9D4-BCB90E40FC10}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="random_chair_move_01" ID="{AC18C681-4B52-490D-8330-74E44DD45795}" ShortID="923576277">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{387A833B-9FB5-41CD-8713-57CD6A7A582B}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F1DDB605-6425-414C-8726-D1C4B7793439}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="random_chair_move_01" ID="{FA4324E0-D2D9-4D90-9CDC-412FC2BEF25A}">
+									<Language>SFX</Language>
+									<AudioFile>random_chair_move_01.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="482254183"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="random_chair_move_01" ID="{FA4324E0-D2D9-4D90-9CDC-412FC2BEF25A}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</RandomSequenceContainer>
+			</ChildrenList>
+		</WorkUnit>
+	</Containers>
+</WwiseDocument>
