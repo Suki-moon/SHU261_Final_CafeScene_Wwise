@@ -43,8 +43,16 @@ cd SHU261_cafe
 3.  **距离衰减 (Attenuation)**：为随机声绑定自定义衰减曲线。通过调整 `Max distance` 区分室内近景（极短距离）与室外远景（较长距离）。
 4.  **频段模拟**：在衰减曲线中启用了 `Low-pass Filter`（低通滤波），模拟声音在空气中远距离传播时高频损失的物理现象。
 
-## 📂 仓库目录结构
-*   `/Assets_WAV`：存放最终导出的 48kHz/24bit WAV 音频资产。
-*   `/Wwise_Project`：存放 Wwise 工程文件及配置（*注：已配置 `.gitignore` 排除缓存文件*）。
-*   `/Screenshots`：存放 REAPER 剪辑工程、Wwise 层级、Positioning 参数设置及 Soundcaster 3D 测试的截图。
-*   `README.md`：项目说明文档。
+### 📂 仓库目录结构 (Wwise Project Structure)
+
+本仓库包含了完整的 Wwise 工程源文件及音频资产，主要目录结构说明如下：
+
+*   **`autumu_cafe_ambinece.wproj`**：Wwise 主工程文件，双击即可在 Wwise 中打开此项目。
+*   **`.gitignore` / `.p4ignore`**：Git 忽略规则文件，用于防止上传 Wwise 运行时产生的庞大缓存文件。
+*   **`Containers/`**：音频层级结构（Actor-Mixer Hierarchy）。包含了本项目所有的基底音（Base）和随机容器（Random Container）的树状组织。
+*   **`Events/`**：事件文件夹。包含了用于触发声音播放的各类 Play 事件（如 `Play_base_cafe_music` 等）。
+*   **`Originals/`**：原始音频资产文件夹。存放了经过 REAPER 剪辑并导出的 48kHz / 24bit / Stereo 的原始 `.wav` 文件。
+*   **`Attenuations/`**：衰减曲线共享集。包含了为 3D 随机声音（如风铃、落叶、杯子）自定义的距离衰减与低通滤波（Low-pass Filter）曲线。
+*   **`Soundcaster Sessions/`**：测试会话文件夹。保存了用于最终预览和验证 3D 距离衰减效果的 Soundcaster 测试场景。
+*   **`Busses/`**：混音总线结构（如 Main Audio Bus 等）。
+*   *(其他如 States, Switches, Presets 等为 Wwise 默认生成的工程结构文件夹，主要用于管理工程配置)*
